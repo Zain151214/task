@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { Dashboard, Home, Login, PageNotFound, Signup } from './pages/index.js';
+import { Dashboard, Home, Login, PageNotFound, Signup } from './Pages/index.js';
 import Layout from './Layout.jsx';
 import PublicRoutes from './lib/PublicRoutes.jsx';
 import ProtectedRoutes from './lib/ProtectedRoutes.jsx';
